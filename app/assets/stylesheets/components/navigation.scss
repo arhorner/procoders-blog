@@ -1,0 +1,32 @@
+.c-navigation {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex: 1;
+  padding-left: 20px;
+
+  h1 {
+    margin: 0;
+    display: flex;
+  }
+
+
+}
+
+.c-navigation__logo {
+  display: flex;
+
+}
+
+.c-navigation__logo-text {
+  
+}
+
+
+.c-navigation__logo-icon img {
+  height: 30px;
+  width: 30px;
+  padding-left: 20px;
+  display: flex;
+
+}
