@@ -1,13 +1,13 @@
 .c-navigation {
   max-width: 100%;
   margin: auto;
-  display: flex;
-  flex: 1;
+  display: inline-block;
   padding-left: 20px;
+  padding-top: 20px;
 
   h1 {
     margin: 0;
-    display: flex;
+    display: block;
   }
 
 
@@ -19,7 +19,7 @@
 }
 
 .c-navigation__logo-text {
-  
+  display: block;
 }
 
 
@@ -27,6 +27,5 @@
   height: 30px;
   width: 30px;
   padding-left: 20px;
-  display: flex;
-
+  display: inline-block;
 }
