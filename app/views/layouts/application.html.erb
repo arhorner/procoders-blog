@@ -10,6 +10,20 @@
   </head>
 
   <body>
+    <div class="o-contianer">
+      <div class="o-container-nav">
+        <div class="c-navigation">
+          <div class="c-navigation__logo">
+            <h1 class="c-navigation__logo-text">Archie Horner</h1>
+              <!-- <div class="c-navigation__logo-icon"><%= image_tag('cursor.svg') %></div> -->
+          </div>
+        </div>
+        <div class="c-navigation__links">
+          <%= link_to 'My Blog', controller: 'articles' %>
+        </div>
+      </div>
+    </div>
+    
     <%= yield %>
   </body>
 </html>
