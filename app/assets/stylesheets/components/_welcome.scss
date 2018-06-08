@@ -1,0 +1,27 @@
+.c-welcome {
+  text-align: center;
+  grid-area: a;
+
+}
+
+.c-welcome__intro  {
+  diplay: block;
+
+  height: 50px;
+
+}
+
+.c-welcome-hero {
+
+
+}
+
+.c-welcome-hero__image {
+    background-image: url("background-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    grid-area: b;
+    height: 500px;
+}

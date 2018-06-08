@@ -5,7 +5,25 @@
 .o-container-nav {
     border-bottom: 1px solid black;
     height: 80px;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "logo . . myblog";
     align-items: center;
 
+
+}
+
+.o-welcome-container {
+  height: 200px;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: repeat(4, 1fr);
+  grid-template-areas: ". a a ."
+                       "b b b b";
+}
+
+.o-welcome {
+  
 }
