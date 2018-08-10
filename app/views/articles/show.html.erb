@@ -1,18 +1,27 @@
-
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
-
-<p>
-  <strong>Text:</strong>
-  <%= @article.text %>
-</p>
-
-<h2>Comments</h2>
-<%= render @article.comments %>
-
-<h2>Add a comment:</h2>
-<%= render 'comments/form' %>
-
-<%= link_to 'Back', articles_path %>
+<div class="o-container-article">
+  <div class="c-article">
+    <div class="c-article_content">
+      <h1>
+        <strong>Title:</strong>
+        <%= @article.title %>
+      </h1>
+    <p>
+      <strong>Post:</strong>
+      <%= @article.text %>
+    </p>
+  </div>
+  </div>
+  <div class="o-container-comments">
+    <div class="c-comments">
+      <div class="c-comments_title">
+        <h1>Comments</h1>
+      </div>
+      <div class="c-comments_posts">
+        <%= render @article.comments %>
+      </div>
+      <h2>Add a comment:</h2>
+      <%= render 'comments/form' %>
+      <%= link_to 'Back', articles_path %>
+    </div>
+  </div>
+</div>

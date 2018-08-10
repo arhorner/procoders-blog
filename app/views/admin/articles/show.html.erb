@@ -5,15 +5,16 @@
 </p>
 
 <p>
-  <strong>Text:</strong>
+  <strong>Post:</strong>
   <%= @article.text %>
 </p>
+<div class="o-container-comments">
+  <h2>Comments</h2>
+  <%= render @article.comments %>
 
-<h2>Comments</h2>
-<%= render @article.comments %>
+  <h2>Add a comment:</h2>
+  <%= render 'comments/form' %>
 
-<h2>Add a comment:</h2>
-<%= render 'comments/form' %>
-
-<%= link_to 'Edit', edit_admin_article_path(@article) %> |
-<%= link_to 'Back', admin_article_path %>
+  <%= link_to 'Edit', edit_admin_article_path(@article) %> |
+  <%= link_to 'Back', admin_article_path %>
+</div>

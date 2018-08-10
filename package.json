@@ -1,5 +1,7 @@
 {
   "name": "blog",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "sass-mq": "^5.0.0"
+  }
 }

@@ -1,41 +1,21 @@
 .c-navigation {
-  max-width: 100%;
-  margin: auto;
-  display: inline-block;
+  height: 80px;
 
-
-
-  h1 {
-    margin: 0;
-    display: block;
+  &__logo {
+    height: 80px;
   }
 
+  &__title {
+    float: left;
+    padding-left: 20px;
 
-}
+    h1 {
+      // border-bottom: 10px solid #FFBA93;
+    }
+  }
 
-.c-navigation__logo {
-  display: block;
-  grid-area: logo;
-
-
-}
-
-.c-navigation__logo-text {
-  display: block;
-}
-
-
-.c-navigation__logo-icon img {
-  height: 30px;
-  width: 30px;
-  padding-left: 20px;
-  display: inline-block;
-}
-
-.c-navigation__links {
-  grid-area: myblog;
-  display: block;
-  height: 20px;
-  width: 100px;
-  align-items: center;
+  &__links {
+    float: right;
+    padding: 30px;
+  }
 }
