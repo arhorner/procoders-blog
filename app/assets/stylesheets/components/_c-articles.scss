@@ -1,0 +1,43 @@
+.c-articles {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+
+  &__list {
+    margin-bottom: 20px;
+
+    table {
+      padding-bottom: 20px;
+      margin: auto;
+      width: 100%;
+    }
+
+    tr, td {
+      text-align: left;
+      margin: auto;
+      padding-top: 20px;
+      padding-left: 100px;
+      font-size: 1em;
+    }
+
+    th {
+      text-align: center;
+      padding-left: 20px;
+    }
+
+    p {
+      margin: auto;
+    }
+  }
+
+  &__title {
+    margin: auto;
+  }
+
+  &__post {
+    max-height: 100px;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

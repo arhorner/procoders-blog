@@ -2,36 +2,22 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: url('/assets/fonts/open-sans-v15-latin-300.woff');
-  src: local('Open Sans Light'), local('OpenSans-Light'),
-       url('/assets/fonts/open-sans-v15-latin-300.woff2') format('woff2');
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/assets/fonts/open-sans-v15-latin-regular.woff');
-  src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('/assets/fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
-       url('/assets/fonts/open-sans-v15-latin-regular.woff') format('woff');
-
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/assets/fonts/open-sans-v15-latin-600.woff');
-  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-       url('/assets/fonts/open-sans-v15-latin-600.woff2') format('woff2'),
-       url('/assets/fonts/open-sans-v15-latin-600.woff') format('woff');
+  src: url('assets/fonts/open-sans-v15-latin-300.woff') format('woff'),
+       url('assets/fonts/open-sans-v15-latin-300.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 700;
-  src: url('/assets/fonts/open-sans-v15-latin-700.woff');
-  src: local('Open Sans Bold'), local('OpenSans-Bold'),
-       url('/assets/fonts/open-sans-v15-latin-700.woff2') format('woff2'),
-       url('/assets/fonts/open-sans-v15-latin-700.woff') format('woff');
+  font-weight: 400;
+  src: url('/assets/fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
+       url('/assets/fonts/open-sans-v15-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/open-sans-v15-latin-600.woff2') format('woff2'),
+       url('/assets/fonts/open-sans-v15-latin-600.woff') format('woff');
 }

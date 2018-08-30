@@ -11,8 +11,8 @@
 
         <% @articles.each do |article| %>
           <tr>
-            <td><strong><%= article.title %></strong></td>
-            <td><%= link_to 'Show', article_path(article) %></td>
+            <td><h1><%= article.title %></h1></td>
+            <td><p><%= link_to 'Show', article_path(article) %></p></td>
           </tr>
         <% end %>
       </table>

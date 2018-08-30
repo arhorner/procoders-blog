@@ -1,12 +1,15 @@
 
  @import "settings/normalize.scss";
  @import "settings/typography.scss";
- // @import "settings/fonts.scss";
+ @import "settings/fonts.scss";
 
- @import "objects/container.scss";
+ @import "objects/o-container.scss";
+ @import "objects/o-welcome.scss";
+ @import "objects/o-navigation.scss";
+ @import "objects/o-background.scss";
 
- @import "components/article.scss";
- @import "components/articles.scss";
- @import "components/welcome.scss";
- @import "components/comments.scss";
- @import "components/navigation.scss";
+ @import "components/c-article.scss";
+ @import "components/c-articles.scss";
+ @import "components/c-welcome.scss";
+ @import "components/c-comments.scss";
+ @import "components/c-navigation.scss";

@@ -1,0 +1,28 @@
+.c-welcome {
+  text-align: center;
+  height: 500px;
+  color: black;
+  max-width: 900px;
+  margin: auto;
+
+  p {
+      margin: auto;
+  }
+
+  &__text {
+    font-size: 1.5em;
+    padding-top: 50px;
+    margin: auto;
+
+    &-title {
+      padding-bottom: 10px;
+      
+      h1 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+
+}

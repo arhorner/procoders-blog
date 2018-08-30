@@ -10,18 +10,19 @@
   </head>
 
   <body>
-    <div class="o-container-nav">
-      <div class="c-navigation">
-        <div class='c-navigation__title'>
-          <h1>Archie Horner</h1>
-        </div>
-        <div class="c-navigation__links">
-          <%= link_to 'My Blog', controller: 'articles' %>
+    <div class='o-background' />
+    <div class='o-container'>
+      <div class="o-navigation">
+        <div class="c-navigation">
+          <div class='c-navigation__title'>
+            <a>Archie Horner</a>
+          </div>
+          <div class="c-navigation__links">
+            <%= link_to 'My Blog', controller: 'articles' %>
+          </div>
         </div>
       </div>
+      <%= yield %>
     </div>
-    <div class='o-container'>
-    <%= yield %>
-  </div>
   </body>
 </html>

@@ -1,0 +1,26 @@
+.c-navigation {
+  height: 80px;
+
+  &__title {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.3em;
+
+    a {
+      font-weight: bold;
+    }
+  }
+
+  &__links {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 1em;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

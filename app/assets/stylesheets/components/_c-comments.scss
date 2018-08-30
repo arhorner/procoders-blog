@@ -1,0 +1,19 @@
+.c-comments {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 50px;
+
+  &_title {
+  }
+
+  &_posts {
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    max-height: 500px;
+
+    p {
+      padding: 5px;
+    }
+  }
+}

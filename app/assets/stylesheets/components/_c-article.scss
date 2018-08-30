@@ -1,0 +1,15 @@
+.c-article {
+  
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__content {
+    width: 80%;
+    margin: 20px auto;
+
+    p, h1 {
+      padding: 0 20px;
+    }
+  }
+}
